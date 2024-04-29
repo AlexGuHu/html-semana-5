@@ -2,7 +2,7 @@ li,.list-custom-1{
     list-style: "> ";
 }
 .list-custom-1{
-    border-bottom: 1.75px dashed  black;
+    border-bottom: 1.75px dashed black;
     margin-bottom: 1rem;
 }
 .li-custom{
