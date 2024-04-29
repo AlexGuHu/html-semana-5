@@ -3,78 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XD</title>
-<style>
-        .marquee {
-        font-size: 24px;
-        }
-        .titulo {
-        font-size: 24px;
-        text-align: center;
-        padding-bottom: 80px;
-        padding-top: 80px;
-        }
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .mono{
-            overflow: scroll;
-            width: 300px;
-            height: 200px;
-            border: 1px;
-        }
-        .pa{
-            display: flex;
-            justify-content: center;
-        }
-        .container{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            background-color: red;
-            color: white;
-        }
-        .containerxd{
-            
-            flex-direction: column;
-        }
-        .indice{
-            padding: 20px;
-            box-sizing: border-box;
-            background-color: rgb(47, 144, 189);
-        }
-        nav, .navbar{
-            margin-left: 3rem;
-        }
-</style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="titulo">Taller de Programación</h1>
-    </div>
+    <nav class="navbar bg-body-tertiary shadow">
+        <div class="container-fluid px-0">
+            <div class="d-flex justify-content-center w-100">
+                <img width="520px" src="img/g9bFTYhftvwTgAAAABJRU5ErkJggg.png" alt="" srcset="">
+            </div>
+            <marquee class="font-style-1 w-p">Dulce Tentacion Cupcakes</marquee>
+        </div>
+    </nav>
+    <section class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="font-style-1 w-p">Indice</h4>
+                            <ul>
+                                <li><a href="#integrantes" class="nav-link list-custom-1">Integrantes</a></li>
+                                <li><a href="#narrativa-del-proyecto" class="nav-link list-custom-1">Narrativa del proyecto</a></li>
+                                <li><a href="#diagrama" class="nav-link list-custom-1">Diagramas de casos de uso</a></li>
+                                <li><a href="#cuadro" class="nav-link list-custom-1">Cuadro</a></li>
+                                <li><a href="#diseno-de-formulario" class="nav-link list-custom-1">Diseño de formulario</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <section>
+                                <div class="container mb-4" id="#integrantes">
+                                    <div class="row">
+                                        <h4 class=" d-flex justify-content-center font-style-1 w-p pt-4">Integrantes:</h4>
+                                        <div class=" d-flex justify-content-center w-100">
+                                            <ul>
+                                                <li class="li-custom">Nonato Nava, Maria Jose</li>
+                                                <li class="li-custom">Malpartida Casanova, Annie Ariadna</li>
+                                                <li class="li-custom">Calderon Ayala, Arnie Kener</li>
+                                                <li class="li-custom">Diaz Martinez, Josthyn Alberto</li>
+                                                <li class="li-custom">Gutierrez Huamani, Alex</li>
+                                                <h4 class="d-flex justify-content-center mt-2 me-4 font-style-1 w-p">Docente:  </h4>
+                                                <li class="li-custom">Espinal Teyes, Jose Antonio</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                              </section>
+                              <section class="pt-5"  id="narrativa-del-proyecto">
+                                <div class="container mb-4">
+                                    <div class="row">
+                                        <h6 class="d-flex justify-content-center">1. La narrativa del proyecto a realizar e insertar una imagen alusiva.</h6>
+                                        <p>En la era digital actual, tener una presencia en línea es esencial para cualquier empresa que intente llegar a su audiencia de manera efectiva. En este contexto, la necesidad de crear una página web para una tienda de cupcakes no solo es algo práctico, sino también una oportunidad para transmitir la esencia y el encanto de la marca a través de la web. En este trabajo final, analizaremos el proceso de concepción, diseño y desarrollo de la página web de "Dulce Tentación", una tienda de cupcakes que cautiva los sentidos con sus deliciosos productos y encanta a sus clientes con su enfoque creativo y apasionado.
+                                        </p>
+                                        <p>
+                                            Analizaremos cada paso del proceso, desde la planificación inicial hasta la implementación técnica, con el objetivo de comprender cómo la presencia en línea puede impulsar el crecimiento y la visibilidad de este pequeño negocio.
+                                             Examinaremos cómo cada decisión, desde la elección de la plataforma de desarrollo hasta la selección de colores y diseño, estuvo cuidadosamente alineada con la identidad y los valores de la marca, convirtiendo a la página web en una poderosa herramienta para atraer y cautivar a los amantes de los cupcakes.
+                                        </p>
+                                        <div class="d-flex justify-content-center">
+                                            <img src="img/Brown_Beige_Simple_Cute_Cupcake_and_Tart_Logo_1.png" width="50%" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                              </section>
+                              <section class="pt-5" id="diagrama">
+                                <div class="container mb-4">
+                                    <div class="row">
+                                        <h6 class="d-flex justify-content-center">2. Insertar los diagramas de casos de uso.</h6>
+                                        <div class="d-flex justify-content-center">
+                                            <img src="img/image5.png" width="80%" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                              </section>
+                              <section class="pt-5" id="cuadro">
+                                <div class="container mb-5">
+                                    <div class="row">
+                                        <h6 class="d-flex justify-content-center">3. Cuadro:</h6>
+                                        
+                                        
+                                        <table>
+                                            <tr>
+                                                <td>Caso</td>
+                                                <td colspan="3">Ver Menu de Postes</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Actores</td>
+                                                <td colspan="4">Cliente: Usuario que visita la página web para ver el menú de postres y decidir qué postres le interesan.</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Objetivos asociados</td>
+                                                <td colspan="4">Mejorar la experiencia de usuario y aumentar las conversiones mediante la optimización de las herramientas de búsqueda y filtrado/td>
+                                              </tr>
+                                              <tr>
+                                                <td>Descripción</td>
+                                                <td colspan="4">Este caso de uso permite a los usuarios explorar el menú de postres ofrecidos por la tienda de manera detallada, incluyendo información sobre cada postre, precios, descripciones y posiblemente imágenes.</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Precondición</td>
+                                                <td colspan="4">
+                                                    La página web está disponible y funcionando correctamente.<br>
+                                                    La información del menú de postres está actualizada y correcta.
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td rowspan="5">Secuencia Normal</td>
+                                                <td rowspan="2" colspan="1">Paso</td>
+                                                <td colspan="2"><center>Accion</center></td>
+                                              </tr>
+                                              <tr>
+                                                <td>Actor</td>
+                                                <td>Sistema</td>
+                                              </tr>
+                                              <tr>
+                                                <td>1</td>
+                                                <td> El cliente accede a la página web de la tienda de postres.</td>
+                                                <td>El sistema muestra la interfaz principal con todas las opciones disponibles para el cliente.</td>
+                                              </tr>
+                                              <tr>
+                                                <td>2</td>
+                                                <td> El cliente busca y selecciona la sección del menú de postres.</td>
+                                                <td>El sistema muestra una lista de postres disponibles con sus nombres, precios y breves descripciones.</td>
+                                              </tr>
+                                              <tr>
+                                                <td>3</td>
+                                                <td>El cliente puede hacer clic en un postre para ver más detalles como ingredientes, tamaño, opciones de personalización, etc.</td>
+                                                <td>El sistema muestra los detalles completos del postre seleccionado.</td>
+                                              </tr>
+                                              <tr>
+                                                <td rowspan="5">Escenario Alternativo</td>
+                                                <td rowspan="2" colspan="1">Paso</td>
+                                                <td colspan="2"><center>Accion</center></td>
+                                              </tr>
+                                              <tr>
+                                                <td>Actor</td>
+                                                <td>Sistema</td>
+                                              </tr>
+                                              <tr>
+                                                <td>1</td>
+                                                <td>Si el cliente no encuentra un postre específico, puede utilizar la barra de búsqueda para buscarlo por nombre o categoría.</td>
+                                                <td>El sistema muestra un mensaje indicando al cliente que utilice la barra de búsqueda para encontrar el postre deseado. Se le anima a buscar por nombre o categoría para facilitar la búsqueda.</td>
+                                              </tr>
+                                              <tr>
+                                                <td>2</td>
+                                                <td>Si el cliente desea filtrar los postres por precio, tipo (tarta, pastel, helado, etc.) u otros criterios, puede utilizar las opciones de filtrado proporcionadas en la página.</td>
+                                                <td>El sistema proporciona instrucciones al cliente sobre cómo utilizar los filtros disponibles para refinar su búsqueda. Se le indica que puede filtrar por precio, tipo de postre y otros criterios para encontrar exactamente lo que desea. </td>
+                                              </tr>
+                                              <tr>
+                                                <td>Postcondición</td>
+                                                <td colspan="4">
+                                                    El cliente ha visto el menú de postres y puede tomar decisiones informadas sobre qué postres le gustaría ordenar o investigar más a fondo.
+                                                </td>
+                                              </tr>
+                                            
+                                        </table>
+                                    </div>
+                                </div>
+                              </section>
+                              <section class="pt-5" id="diseno-de-formulario">
+                                <div class="container mb-4">
+                                    <div class="row">
+                                        <h6 class="d-flex justify-content-center">4. Diseñar un formulario con una encuesta de opinión que mida el nivel de aceptación de su proyecto.</h6>
+                                        
+                                    </div>
+                                </div>
+                              </section>
+                              <section>
+                                <div class="container py-2">
+                                  <div class="mb-4">
+                                    <center><h2 class="font-style-1 w-p"><strong>Formulario</strong></h2></center>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12">
+                                      <div class="d-flex justify-content-center">
+                                        <div class="card">
+                                          <div class="card-body m-2">
+                                            <div class="row g-3 align-items-center mb-2">
+                                              <div class="col-auto">
+                                                <label for="input1">Nombre: </label>
+                                              </div>
+                                              <div class="col-auto">
+                                                <input type="text" class="form-control" >
+                                              </div>
+                                            </div>
+                                            <div class="row g-3 align-items-center my-2">
+                                              <div class="col-auto">
+                                                <label for="input1">Sexo: </label>
+                                              </div>
+                                              <div class="col-auto">
+                                                <input type="radio" class="ms-4" name="sex" value="Hombre"><span class="ms-2" >Hombre</span>
+                                                <input type="radio" class="ms-1" name="sex" value="Mujer"><span  class="ms-2">Mujer</span>
+                                              </div>
+                                            </div>
+                                            <div class="row g-3 align-items-center mb-2">
+                                              <div class="col-auto">
+                                                <label for="input1">Edad: </label>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="edad" value="Hombre"><span class="ms-2" >Menor de 17</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="edad" value="Hombre"><span class="ms-2" >Entre 18 y 60</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="edad" value="Hombre"><span class="ms-2" >Mayor de 61</span>
+                                              </div>
+                                            </div>
+                                            
+                                            <div class="row g-3 align-items-center mb-2">
+                                              <div class="col-auto">
+                                                <label for="input1">¿Has visitado nuestro negocio de cupcakes anteriormente?</label>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p0" value="Hombre"><span class="ms-2">Si</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p0" value="Hombre"><span class="ms-2">No</span>
+                                              </div>
+                                            </div>
+                                            <div class="row g-3 align-items-center mb-2">
+                                              <div class="col-auto">
+                                                <label for="input1">Por favor, evalúa la calidad de nuestros cupcakes en una escala del 1 al 5, donde 1 es "Mala" y 5 es "Excelente".</label>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p1" value="Hombre"><span class="ms-2" >1</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p1" value="Hombre"><span class="ms-2" >2</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p1" value="Hombre"><span class="ms-2" >3</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p1" value="Hombre"><span class="ms-2" >4</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p1" value="Hombre"><span class="ms-2" >5</span>
+                                              </div>
+                                            </div>
+                                            <div class="row g-3 align-items-center mb-2">
+                                              <div class="col-auto">
+                                                <label for="input1">¿Qué es lo que más te gusta de nuestros cupcakes?</label>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p2" value="Hombre"><span class="ms-2" >Sabor</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p2" value="Hombre"><span class="ms-2" >Textura</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p2" value="Hombre"><span class="ms-2" >Variedad</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p2" value="Hombre"><span class="ms-2" >Presentacion</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p2" value="Hombre"><span class="ms-2" >Otro</span>
+                                              </div>
+                                            </div>
+                                            <div class="row g-3 align-items-center mb-2">
+                                              <div class="col-auto">
+                                                <label for="input1">¿Cómo calificarías la atención que recibiste por parte de nuestro personal?</label>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p3" value="Hombre"><span class="ms-2" >Muy buena</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p3" value="Hombre"><span class="ms-2" >Buena</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p3" value="Hombre"><span class="ms-2" >Regular</span>
+                                              </div>
+                                              <div class="col-12">
+                                                <input type="radio" name="p3" value="Hombre"><span class="ms-2" >Mala</span>
+                                              </div>
+                                            </div>
+                                            <a href="#" class="btn btn-secondary rounded-pill bg-set-2 none-border text-s1">Enviar Reseña</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section >
+    <div class="container py-2 bg-cus-1">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <p class="mb-1">Redes sociales</p>
+            </div>
+          </div>
+          <div class="col-12 mb-4">
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-secondary bg-black rounded-circle align-items-center" style="padding: 8px 12px 10px 12px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram pt-0" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-set-3">
+        <div class="container py-2">
+          <div class="d-flex justify-content-center"><span>Hecho con mucho ❤ | Grupo 8</span></div>
+        </div>
+      </footer>
 
-    <div class="containerxd">
-    <marquee class="marquee" direction="left">Tarea Semana Número 5</marquee>
-    </div>
-    <div class="column">
-        <h2>Indice</h2>
-        <nav class="navbar">
-            <ul>
-            <li>Item 1</li>
-            <li><a href="https://www.google.com/maps/">Google Maps</a></li>
-            <li><a href="https://www.youtube.com/">YouTube</a></li>
-            <li><a href="#lista-ordenada">Lista Ordenada</a></li>
-            <li><a href="#lista-no-ordenada">Lista No Ordenada</a></li>
-            <li><a href="#lista-definiciones">Lista de Definiciones</a></li>
-            <li><a href="#lista-anidada">Lista Anidada</a></li>
-            <li><a href="#tabla">Tabla</a></li>
-            <li><a href="#imagenes">Imagenes</a></li>
-            <li><a href="#objetos">Objetos</a></li>
-            <li><a href="#formulario.html">Formulario</a></li>
-
-            </ul>
-      </nav>
-    </div>
 </body>
 </html>
