@@ -682,6 +682,9 @@ td {
 .bg-set-3 {
     background-color: #FDF0CB;
 }
+.bg-set-4 {
+    background-color: #FFF0BD;
+}
 
 .none-border {
     border: 1px solid #f9f7f7;
